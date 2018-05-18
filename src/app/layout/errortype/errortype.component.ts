@@ -12,6 +12,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     animations: [routerTransition()]
 })
 export class ErrortypeComponent implements OnInit {
+    isCollapsed : boolean = true;
     closeResult: string;
 
     @ViewChild('AlertModal') public AlertModal: ModalDirective;

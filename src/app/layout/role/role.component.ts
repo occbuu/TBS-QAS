@@ -9,6 +9,7 @@ import { routerTransition } from '../../router.animations';
     animations: [routerTransition()]
 })
 export class RoleComponent implements OnInit {
+    isCollapsed : boolean = true;
     public items = new TreeviewItem({
         text: 'IT', value: 9, children: [
             {

@@ -8,6 +8,7 @@ import { routerTransition } from '../../router.animations';
     animations: [routerTransition()]
 })
 export class UserComponent implements OnInit {
+    isCollapsed : boolean = true;
     constructor() {}
 
     ngOnInit() {}
